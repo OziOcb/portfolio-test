@@ -8,10 +8,16 @@
       </div>
     </section>
     <div class="hero_socialIcons socialIcons">
-      <a href="#" class="socialIcon_icon">twitter</a>
-      <a href="#" class="socialIcon_icon">linkedIn</a>
+      <a href="#" class="socialIcon_icon">
+        <font-awesome :icon="['fab', 'github']" />
+      </a>
+      <a href="#" class="socialIcon_icon">
+        <font-awesome :icon="['fab', 'linkedin']" />
+      </a>
     </div>
-    <div class="hero__scrollBtn">scroll</div>
+    <div class="hero__scrollBtn">
+      <font-awesome :icon="['fas', 'arrow-down']" />
+    </div>
   </Layout>
 </template>
 
