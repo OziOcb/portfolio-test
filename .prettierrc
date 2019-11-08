@@ -1,0 +1,6 @@
+{
+  "printWidth": 240,
+  "useTabs": true,
+  "htmlWhitespaceSensitivity": "ignore",
+  "prettier.eslintIntegration": true
+}

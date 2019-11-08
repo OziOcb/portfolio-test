@@ -34,4 +34,10 @@ export default {
 </script>
 
 <style lang="scss">
+.hero {
+  background-color: #900;
+  height: 100vh;
+  display: grid;
+  // TODO: Add the Grid
+}
 </style>
