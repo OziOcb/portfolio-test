@@ -1,37 +1,27 @@
 <template>
   <Layout>
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1 class="test">Hello, world!</h1>
-
-    <p
-      class="test2"
-    >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores</p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
+    <section class="hero">
+      <div class="hero__content">
+        <p>Hello</p>
+        <h2>It's Paul</h2>
+        <p class="hero__lead">The Front End Developer you need!</p>
+      </div>
+    </section>
+    <div class="hero_socialIcons socialIcons">
+      <a href="#" class="socialIcon_icon">twitter</a>
+      <a href="#" class="socialIcon_icon">linkedIn</a>
+    </div>
+    <div class="hero__scrollBtn">scroll</div>
   </Layout>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: "Hello, world!"
+    title: "Ozi Ocb Portfolio"
   }
 };
 </script>
 
 <style lang="scss">
-.home-links {
-  a {
-    margin-right: 1rem;
-  }
-}
-
-.test {
-  color: $testFromGlobalsScss;
-}
 </style>
