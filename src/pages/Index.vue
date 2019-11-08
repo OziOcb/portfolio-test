@@ -1,23 +1,25 @@
 <template>
   <Layout>
     <section class="hero">
-      <div class="hero__content">
-        <p>Hello</p>
-        <h2>It's Paul</h2>
-        <p class="hero__lead">The Front End Developer you need!</p>
+      <div class="hero__contentWrapper">
+        <p class="hero__lead">Hello</p>
+        <h2 class="hero__title">It's Paul</h2>
+        <p class="hero__desc">The Front End Developer you need!</p>
+      </div>
+
+      <div class="hero__socialIcons socialIcons">
+        <a href="#" class="socialIcons_link">
+          <font-awesome class="socialIcons__icon" :icon="['fab', 'github']" />
+        </a>
+        <a href="#" class="socialIcons_link">
+          <font-awesome class="socialIcons__icon" :icon="['fab', 'linkedin']" />
+        </a>
+      </div>
+
+      <div class="hero__scrollBtn">
+        <font-awesome :icon="['fas', 'arrow-down']" />
       </div>
     </section>
-    <div class="hero_socialIcons socialIcons">
-      <a href="#" class="socialIcon_icon">
-        <font-awesome :icon="['fab', 'github']" />
-      </a>
-      <a href="#" class="socialIcon_icon">
-        <font-awesome :icon="['fab', 'linkedin']" />
-      </a>
-    </div>
-    <div class="hero__scrollBtn">
-      <font-awesome :icon="['fas', 'arrow-down']" />
-    </div>
   </Layout>
 </template>
 
